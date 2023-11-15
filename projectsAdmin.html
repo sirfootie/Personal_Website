@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Projects Admin</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!-- Nav bar to switch between pages -->
+    <nav>
+        <h1>Andrew's Portfolio Admin</h1>
+        <a class="navButton" href="indexAdmin.html">Index</a>
+        <a class="navButton" href="resumeAdmin.html">Resume</a>
+        <a class="navButton" href="projectsAdmin.html">Projects</a>
+        <a class="navButton" href="contactAdmin.html">Contact</a>
+        <a class="navButton" href="socialAdmin.html">Social</a>
+        <a class="navButton" href="logout.html">Logout</a>
+    </nav>
+    <!-- Projects admin page, contains text areas to submit new info-->
+    <h2>Projects Admin</h2>
+
+    <form>
+        <label for="projects">Professional Statement</label>
+        <textarea id="projects">Please write new projects here...</textarea>
+        <label for="projectsSubmitButton">Submit</label>
+        <input type="submit" value="Submit" id="projectsSubmitButton" class="projectsForm" onclick="submitProjects();">
+    </form>
+
+</body>
+
+</html>

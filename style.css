@@ -1,0 +1,98 @@
+/*Font for entire website*/
+*{
+	font-family: Arial;
+}
+/*Background for outter border*/
+html{
+	background-color: midnightblue;
+}
+/*Universal body style for whole webpage*/
+body {
+	background-color: white;
+	background-size: cover;
+	background-position: center;
+	
+	margin-left: 100px;
+	margin-right: 100px;
+}
+/*Margin for all page headers*/
+h2{
+	margin-left: 10px;
+}
+/*Style for nav bar*/
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: midnightblue;
+	color: white;
+}
+/*Nav buttons styling*/
+.navButton{
+	color: white;
+	text-decoration: none;
+	background color: none;
+}
+/*Homepage styling from img to statement and bio*/
+#nameHomepage{
+	text-align: center;
+}
+.imgcenter{
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+	width: auto;
+}
+.statement, #bio{
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+/*Resume styling, includes margins, font-boldness and alligments*/
+.resume{
+	margin-left: 10px;
+}
+ol, dl{
+	padding: 0;
+	font-weight: bold;
+}
+li, dd{
+	margin-left: 60px;
+	font-weight: normal;
+}
+.resumeElement{
+	font-size: 18px;
+	font-weight: bold;
+}
+#resumedownload{
+	font-size: 20px;
+}
+/*Project page styling including list style*/
+.projectList{
+	list-style-type: upper-roman; 
+}
+/*Styling for cntatc page, note text is left aligned*/
+.contactForm{
+	margin-left: 10px;
+	display: block;
+	width: 400px;
+	text-align: left;
+}
+/*Styling for admin page, note text is justified aligned*/
+.adminPage{
+	margin-left: 10px;
+	display: block;
+	width: 400px;
+	text-align: justify;
+}
+/*Styling for submit button on contact and admin page*/
+#submitbutton{
+	text-align: center;
+	margin: 10px;	
+}
+/*Styling for socials page*/
+.socials{
+	text-align: center;
+}
