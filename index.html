@@ -8,37 +8,101 @@
 	<title>Andrew Foote Software Developer</title>
 	<link rel="stylesheet" href="./assets/css/aos.css">
 	<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-	<link rel="stylesheey" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
 	<link rel="stylesheet" href="./assets/css/line-awesome.min.css">
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
 	<!-- Nav Bar-->
-	<nav class="navbar navbar-expand-lg navbar-dark">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="#">Navbar</a>
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+		<div class="container flex-lg-column">
+			<a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+				<span class="h3 fw-bold d-block d-lg-none">Andrew Foote</span>
+				<img src="./assets/images/me.svg" class="d-none d-lg-block">
+			</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
 				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav">
+				<ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="#">Home</a>
+						<a class="nav-link" href="#home">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Features</a>
+						<a class="nav-link" href="#about">About</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Pricing</a>
+						<a class="nav-link" href="#experience">Experience</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link disabled" aria-disabled="true">Disabled</a>
+						<a class="nav-link" href="#Projects">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</nav>
+
+	<div id="content-wrapper">
+
+		<!-- Home -->
+		<section id="home" class="full-height px-lg-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-10">
+						<h1 class="display-4 fw-bold" data-aos="zoom-in-up">I'M A <span class="text-brand">SOFTWARE
+								DEVELOPER</span> BASED IN
+							MONTREAL, QC</h1>
+						<p class="lead mt-2 mb-4" data-aos="zoom-in-up" data-aos-delay="300">I study computer science at
+							Concordia University
+							and I'm on the hunt
+							for my
+							next software developer internship</p>
+						<div data-aos="zoom-in-up" data-aos-delay="700">
+							<a href="#projects" class="btn btn-brand me-3">Explore My Projects</a>
+							<a href="#" class="custom-link">Email: andy@6feet.ca</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- About -->
+		<section id="about" class="full-height px-lg-5">
+			<div class="row">
+
+			</div>
+		</section>
+
+		<!-- Projects -->
+		<section id="projects" class="full-height px-lg-5">
+			<div class="container">
+				<div class="row pb-4" data-aos="zoom-in-up">
+					<div class="col-lg-8">
+						<h6 class="text-brand">PROJECTS</h6>
+						<h1>My Projects</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="card-custom rounded-4 bg-base shadow-effect">
+							<div class="card-custom-image rounded-4">
+								<img class="rounded-4" src="./assets/images/p1.png" alt="">
+							</div>
+							<div class="card-custom-content p-4">
+								<h4>Project Title</h4>
+								<p>Project snapshot goes here</p>
+								<a href="#" class="custom-link">View Project</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
 
 	<script src="./assets/js/bootstrap.bundle.min.js"></script>
 	<script src="./assets/js/aos.js"></script>
