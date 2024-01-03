@@ -3,10 +3,10 @@
 :root {
     --color-body: #eaf4f4;
     --color-heading: #f6fff8;
-    --color-base: #9d0208;
-    --color-base2: #d00000;
-    --color-brand: #faa307;
-    --color-brand2: #ffba08;
+    --color-base: #1d3557;
+    --color-base2: #457b9d;
+    --color-brand: #a8dadc;
+    --color-brand2: #f1faee;
     --sidebar-width: 240px;
     --font-base: 'Roboto';
 }
@@ -101,7 +101,7 @@ img {
     .navbar {
         min-height: 100vh;
         width: var(--sidebar-width);
-        background: linear-gradient(rgba(156, 2, 7, 0.9), rgba(156, 2, 7, 0.9)), url(../images/sidebar-img.jpg);
+        background: linear-gradient(rgb(29, 53, 87, 0.9), rgb(29, 53, 87, 0.9)), url(../images/sidebar-img.jpg);
         background-size: cover;
         background-position: center;
     }
